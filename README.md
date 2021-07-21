@@ -1,18 +1,18 @@
-# Multi GPU using SuperResolution
+# Multi GPU using Super Resolution
 
 ## Prepare
 - train_x2.h5
 ```bash
 python prepare.py --images_dir "./train_file" \
-               --output_path "./output_path/train_x2.h5" \
-               --scale 2 \
+                  --output_path "./output_path/train_x2.h5" \
+                  --scale 2 \
 ```
 - eval_x2.h5
 ```bash
 python prepare.py --images_dir "./eval_file" \
-               --output_path "./output_path/eval_x2.h5" \
-               --scale 2 \
-               --eval
+                  --output_path "./output_path/eval_x2.h5" \
+                  --scale 2 \
+                  --eval
 ```
 
 

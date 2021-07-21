@@ -1,6 +1,5 @@
-# Multi GPU using Super Resolution
+# Multi GPU training with Super Resolution
 
-## Prepare
 - train_x2.h5
 ```bash
 python prepare.py --images_dir "./train_file" \

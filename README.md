@@ -1,4 +1,4 @@
-# Multi_GPU_using_Super_Resolution
+# Multi GPU using SuperResolution
 
 ## Prepare
 - train_x2.h5
